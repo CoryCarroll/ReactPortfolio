@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Portfolio from './pages/portfolio';
-import Resume from './pages/resume';
 import Contact from './pages/contact';
 import About from './pages/about';
 import Home from './pages/home';
-import Navtabs from './pages/navtabs';
+import NavTabs from './navtabs';
 import Header from './pages/header';
 import Footer from './pages/footer';
 

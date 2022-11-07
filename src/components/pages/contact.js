@@ -1,25 +1,26 @@
 import React from 'react';
 import Header from './header';
 import Footer from './footer';
-import Images from '../images'
 
-export default function Home() {
+function Contact() {
     return (
         <div>
             <Header/>
-            <div class="contacts">            
-                <h2 id="contact">Contact Me</h2>
-                <a class="email" href="email">
-                    <img src="images/Gmail_icon.png" alt="Gmail" height="100"></img>
-                </a>
-                <a class="github" href="github">
-                    <img src="images/GitHub-logo.png" alt="GitHub-Profile" height="100"></img>
-                </a>
-                <a class="linkd" href="linkdin">
-                    <img src="images/linkdin.png" alt="LinkdIn-Profile" height="100"></img>
-                </a>
+            <div className="col-md-6">
+                <form className="contactform">
+                    <div className="form-group">
+                        <h1 className="Port-index">Contact Me:</h1>
+                        {/* javascript to handle mouse over custom to alert user field is required */}
+                        <input type="text" className="form-control" title="This field is required" id="name" placeholder="Name" required />
+                        <input type="email" className="form-control" title="This field is required" id="email" placeholder="Email Address" required />
+                        <textarea className="form-control" id="message" rows="3" title="This field is required" placeholder="Please Leave me a Message." required></textarea>
+                        <button type="submit" className="btn btn-primary">Submit</button>
+                    </div>
+                </form>
             </div>
             <Footer/>
         </div>
     );
 }
+
+export default Contact;

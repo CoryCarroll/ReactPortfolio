@@ -9,10 +9,15 @@ class Portfolio extends Component {
                 <div className="projectContainer">
                 {Cards.map((cardDetails, i) => {
                     return (
-                        <div>
-                            <h4></h4>
-                            <img src="" alt=""></img>
-
+                        <div className="Wrapper" key={i}>
+                            <h4>{cardDetails.cardname}</h4>
+                            <img className="projectImg" src={cardDetails.image} alt="Project Card"/>
+                            <a href={cardDetails.github}>
+                                <button className="btn btn-primary">GitHub</button>
+                            </a>
+                            <a href={cardDetails.deployedSite}>
+                                <button className="btn btn-primary">Deployed</button>
+                            </a>
                         </div>
                     )
                 })}
@@ -21,3 +26,5 @@ class Portfolio extends Component {
         )
     }
 }
+
+export default Portfolio;
