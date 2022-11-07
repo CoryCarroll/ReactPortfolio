@@ -1,18 +1,14 @@
-// import React from 'react';
-// // import Header from './header';
-// // import Footer from './footer';
+import React from 'react';
+// import Footer from './footer';
+import 'bootstrap/dist/css/bootstrap.min.css'
+function Header() {
+    return (
+            <div className='container-fluid'>
+                <div className='jumbotron'>
+                    <img className='img-fluid w-100' src='images/background.jpg' alt='background'/>
+                </div>
+            </div>
+    )
+}
 
-// function Header() {
-//     return (
-//         <div>
-//             {/* <Header/> */}
-//             <h1>Hello, Im Cory Carroll</h1>
-//             <p>
-//                 I am a Full Stack Web Developer. 
-//             </p>
-//             {/* <Footer/> */}
-//         </div>
-//     )
-// }
-
-// export default Home;
+export default Header;

@@ -3,28 +3,28 @@
     {
         "id": "1",
         "cardname": "Weather Dashboard",
-        "image": "../images/weathercheck.png",
+        "image": "images/weathercheck.png",
         "deployedSite": "https://corycarroll.github.io/weathercheck/",
         "github": "https://github.com/CoryCarroll/weathercheck"
     },
     {
         "id": "2",
         "cardname": "UNDER CONSTRUCTION",
-        "image": "../images/page-under-construction-icon.jpg",
+        "image": "images/page-under-construction-icon.jpg",
         "deployedSite": "COMING SOON",
         "github": "https://github.com/CoryCarroll/HappyDogCo"
     },
     {
         "id": "3",
         "cardname": "Travel Log",
-        "image": "../images/travelog-site.png",
+        "image": "images/travelog-site.png",
         "deployedSite": "https://serene-sierra-18598.herokuapp.com/login",
         "github": "https://github.com/kylelarsenlarsen/Trip-Tracker"
     },
     {
         "id": "4",
         "cardname": "Diaster Search",
-        "image": "../images/safetysearch.png",
+        "image": "images/safetysearch.png",
         "deployedSite": "https://emileebogdan.github.io/project-1-travel-and-events/",
         "github": "https://github.com/emileebogdan/project-1-travel-and-events"
     }

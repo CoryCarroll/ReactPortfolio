@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Cards from "./portfoliocards/cards.json";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Portfolio extends Component {
     render() {
