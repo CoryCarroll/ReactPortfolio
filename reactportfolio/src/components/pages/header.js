@@ -3,11 +3,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 function Header() {
     return (
+        <header className='banner'>
             <div className='container-fluid'>
-                <div className='jumbotron'>
-                    <img className='img-fluid w-100' src='images/background.jpg' alt='background'/>
+                <div className=''>
+                    <img className='img-fluid mh-25 w-100' src='images/background.jpg' alt='background'/>
                 </div>
             </div>
+        </header>    
     )
 }
 
