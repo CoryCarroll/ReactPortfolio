@@ -4,8 +4,6 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import Home from './pages/home';
 import NavTabs from './navtabs';
-// import Header from './pages/header';
-// import Footer from './pages/footer';
 
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');

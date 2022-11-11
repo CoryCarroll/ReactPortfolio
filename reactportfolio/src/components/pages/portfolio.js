@@ -1,11 +1,15 @@
 import React, { Component } from "react";
+import Header from './header';
+import Footer from './footer';
 import Cards from "./portfoliocards/cards.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Portfolio extends Component {
     render() {
         return (
-            <div className="container mt-5 d-flex justify-content-center border">
+        <div>
+            <Header/>
+            <div className="container mt-5 d-flex justify-content-center">
                 <h2 className="portfolio text-success">My Projects</h2>
                 <div className="projectContainer">
                 {Cards.map((cardDetails, i) => {
@@ -28,6 +32,8 @@ class Portfolio extends Component {
                 })}
                 </div>
             </div>
+            <Footer/>
+        </div>
         )
     }
 }
