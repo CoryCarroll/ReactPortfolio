@@ -1,0 +1,9 @@
+:root {
+    --light-gray: rgba(198, 208, 210, 1);
+    --eerie-black: rgba(31, 31, 31, 1);
+    --orange-pantone: rgba(247, 92, 3, 1);
+}
+
+.portfolio {
+    background-color: var(--light-gray);
+}

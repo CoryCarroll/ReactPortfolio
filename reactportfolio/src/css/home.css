@@ -1,0 +1,39 @@
+:root {
+    --cultured: rgba(232, 236, 237, 1);
+    --eerie-black: rgba(31, 31, 31, 1);
+    --orange-pantone: rgba(247, 92, 3, 1);
+}
+
+html { 
+    padding: 125px;
+    margin: 85px;
+    background: url('../../public/images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.home {
+    display: flex;
+    margin: 10px;
+    padding: 50px;
+}
+
+.selfie {
+    margin: 20px;
+}
+
+.name {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    color: var(--eerie-black);
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+    font-size: 39px;
+    color: var(--eerie-black);
+}

@@ -1,0 +1,36 @@
+:root {
+    --cultured: rgba(232, 236, 237, 1);
+    --eerie-black: rgba(31, 31, 31, 1);
+    --orange-pantone: rgba(247, 92, 3, 1);
+}
+
+.nav-tabs {
+    margin: 20px;
+    top: 0;
+    left: 0;
+    width: 95%;
+    margin: 1%;
+    background-color: var(--orange-pantone);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav-item {
+    font-family: 'Fjalla One', sans-serif;
+    display: inline;
+    padding: 10px;
+    color: var(--eerie-black);
+    font-size: 25px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item .active{
+    color: var(--eerie-black);
+}
+
+.nav-item .inactive {
+    color: var(--cultured);
+}

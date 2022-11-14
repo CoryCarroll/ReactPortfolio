@@ -1,0 +1,22 @@
+:root {
+    --cultured: rgba(232, 236, 237, 1);
+    --eerie-black: rgba(31, 31, 31, 1);
+    --orange-pantone: rgba(247, 92, 3, 1);
+}
+
+.contactMe {
+    color: var(--eerie-black);
+}
+
+.btn {
+    margin: 20px;
+    color: var(--orange-pantone);
+    background-color: var(--eerie-black);
+    outline: auto;
+    outline-color: var(--eerie-black);
+} 
+
+.btn:hover {
+    background-color: var(--cultured);
+    color: var(--orange-pantone);
+}

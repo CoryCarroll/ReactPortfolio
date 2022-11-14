@@ -1,0 +1,40 @@
+:root {
+    --cultured: rgba(232, 236, 237, 1);
+    --eerie-black: rgba(31, 31, 31, 1);
+    --orange-pantone: rgba(247, 92, 3, 1);
+}
+
+
+.portfolio {
+    text-align: center;
+    color: var(--eerie-black);
+}
+
+
+.header {
+    font-family: 'Fjalla One', sans-serif;
+}
+.projectContainer {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 500px 500px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card-header {
+        font-family: 'Fjalla One', sans-serif;
+    color: var(--cultured);
+}
+
+.btn {
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--orange-pantone);
+    outline: auto;
+    outline-color: var(--eerie-black);
+} 
+
+.btn:hover {
+    background-color: var(--cultured);
+    color: var(--orange-pantone);
+}

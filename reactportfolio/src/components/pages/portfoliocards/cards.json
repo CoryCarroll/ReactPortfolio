@@ -9,17 +9,17 @@
     },
     {
         "id": "2",
-        "cardname": "UNDER CONSTRUCTION",
-        "image": "images/page-under-construction-icon.jpg",
-        "deployedSite": "COMING SOON",
-        "github": "https://github.com/CoryCarroll/HappyDogCo"
-    },
-    {
-        "id": "3",
         "cardname": "Travel Log",
         "image": "images/travelog-site.png",
         "deployedSite": "https://serene-sierra-18598.herokuapp.com/login",
         "github": "https://github.com/kylelarsenlarsen/Trip-Tracker"
+    },
+    {
+        "id": "3",
+        "cardname": "UNDER CONSTRUCTION",
+        "image": "images/page-under-construction-icon.jpg",
+        "deployedSite": "COMING SOON",
+        "github": "https://github.com/CoryCarroll/HappyDogCo"
     },
     {
         "id": "4",
