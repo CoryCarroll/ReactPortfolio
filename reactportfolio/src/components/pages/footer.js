@@ -7,10 +7,10 @@ function Footer() {
         <footer className='icons'>
             <div> 
                 <a className="github" href="https://github.com/CoryCarroll">
-                    <img src="./images/GitHub-logo.png" alt="GitHub-Profile" height="35" />
+                    <img src="images/GitHub-logo.png" alt="GitHub-Profile" />
                 </a>
                 <a className="linkd" href="https://www.linkedin.com/in/cdcarroll/">
-                    <img src="images/linkdin.png" alt="LinkedIn-Profile" height="35" />
+                    <img src="images/linkdin.png" alt="LinkedIn-Profile" />
                 </a>
             </div>  
         </footer> 
