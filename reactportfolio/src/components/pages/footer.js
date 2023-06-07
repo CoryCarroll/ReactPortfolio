@@ -6,11 +6,11 @@ function Footer() {
     return (
         <footer className='icons'>
             <div> 
-                <a className="github" href="github">
-                    <img src="images/GitHub-logo.png" alt="GitHub-Profile" height="35" />
+                <a className="github" href="https://github.com/CoryCarroll">
+                    <img src="./images/GitHub-logo.png" alt="GitHub-Profile" height="35" />
                 </a>
-                <a className="linkd" href="linkdin">
-                    <img src="images/linkdin.png" alt="LinkdIn-Profile" height="35" />
+                <a className="linkd" href="https://www.linkedin.com/in/cdcarroll/">
+                    <img src="images/linkdin.png" alt="LinkedIn-Profile" height="35" />
                 </a>
             </div>  
         </footer> 

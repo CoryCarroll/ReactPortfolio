@@ -7,7 +7,7 @@
 html { 
     padding: 125px;
     margin: 85px;
-    background: url('../../public/images/background.jpg') no-repeat center center fixed; 
+    background: url('../../public/images/background-hexagon.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
